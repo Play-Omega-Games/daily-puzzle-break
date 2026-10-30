@@ -1,0 +1,2162 @@
+[
+ {
+  "date": "2026-11-02",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 6, 7, 9 and 9 once each, with + - x and /, to make 19. Brackets are fine.",
+    "answer": "((7 + 9) + 9) - 6",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 7 and 9.",
+     "One answer: ((7 ? 9) ? 9) ? 6."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nM FOWBYOT ZOZZN JMTCIT SCI JBQHYJT.\nStarter letters: F = C, H = D, O = U, N = Y.",
+    "answer": "A curious puppy washes the windows.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "C stands for H.",
+     "Q stands for N, and S stands for T.",
+     "The first two words are A CURIOUS."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn JIG into GOT, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "JIG > JOG > JOT > GOT",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is JOG.",
+     "Halfway there, the ladder passes a word starting with J.",
+     "The middle word is JOT."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble LAANC into one word.",
+    "answer": "CANAL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with C.",
+     "It starts with C and ends with L.",
+     "The first three letters are CAN."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [E]  [R]  [D]  [E]  [U]  [S]  [H]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "19 everyday words, for example DEER, DUES, HEED, HERD, HERE, HERS, REED, RUDE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 19 everyday words here. One starts with DE.",
+     "Try a word starting with RU, and one ending in ER.",
+     "Three to try: USED, REED, SEED."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-03",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ana, Lena and Milo each have a different hobby and pet. Hobby: chess, fishing, knitting; Pet: cat, lizard, turtle. Use the clues to match everyone.\n1. Lena has the turtle.\n2. Milo enjoys chess.\n3. Lena does not enjoy fishing.\n4. Milo has the lizard.",
+    "answer": "Ana: fishing, cat; Lena: knitting, turtle; Milo: chess, lizard",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Milo enjoys chess.",
+     "Two more: Ana has the cat; Lena has the turtle."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [  ?] [  ?]\n  [  9] [  5] [  8]",
+    "answer": "27",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the row 2 from the bottom, brick 1 from the left is 14.",
+     "Bottom row: 9, 5, 8."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nOJK LSTKO BTQVZVTZX BTRJOM OJK BZXOKVX FSMO QKEYVK MSUUKV.\nStarter letters: Q = B, E = F, Y = O, M = S.",
+    "answer": "The quiet librarian lights the lantern just before supper.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "R stands for G.",
+     "J stands for H, and L stands for Q.",
+     "The first two words are THE QUIET."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn ANT into ATE, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "ANT > ACT > ACE > ATE",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is ACT.",
+     "Halfway there, the ladder passes a word starting with A.",
+     "The middle word is ACE."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble GUOEV into one word.",
+    "answer": "VOGUE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with V.",
+     "It starts with V and ends with E.",
+     "The first three letters are VOG."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [T]  [N]  [E]  [S]  [P]  [A]  [L]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "62 everyday words, for example ANTE, EAST, LANE, LAPSE, LAST, LATE, LEAN, LEAP, LEAPT, LEAST, LENS, LENT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 62 everyday words here. One starts with AN.",
+     "Try a word starting with PL, and one ending in PS.",
+     "Three to try: SALT, PEAT, PLAN."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ben, Gus, Jon and Yara each have a different hobby, color and snack. Hobby: baking, gardening, hiking, knitting; Color: blue, green, pink, yellow; Snack: apples, cookies, muffins, popcorn. Use the clues to match everyone.\n1. The person who enjoys hiking wears yellow.\n2. The person who enjoys gardening does not wear green.\n3. Gus does not wear green.\n4. The person who enjoys knitting did not bring the popcorn.\n5. Gus does not wear pink.\n6. The person who wears pink brought the apples.\n7. Gus enjoys baking.\n8. Ben enjoys knitting.\n9. Yara brought the muffins.",
+    "answer": "Ben: knitting, green, cookies; Gus: baking, blue, popcorn; Jon: gardening, pink, apples; Yara: hiking, yellow, muffins",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Gus enjoys baking.",
+     "Two more: Ben brought the cookies; Jon brought the apples."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 4 exactly once.\n. 3 . .\n3 . . 1\n. . 3 2\n. . 4 .",
+    "answer": "2 3 1 4\n3 4 2 1\n4 1 3 2\n1 2 4 3",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 1 is 2.",
+     "Row 1: 2 3 1 4.",
+     "Rows 1 and 2: 2 3 1 4 / 3 4 2 1."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nSXB KMNNF ACJZBRBJ NHAXSL SXB NCRSBJR ZPJHRA SXB LRMYLSMJE.\nStarter letters: A = G, H = I.",
+    "answer": "The jolly gardener lights the lantern during the snowstorm.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "E stands for M.",
+     "F stands for Y, and L stands for S.",
+     "The first two words are THE JOLLY."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn FISH into PERT, changing one letter at a time. Every step must be a real word. Par is 4 moves.",
+    "answer": "FISH > FIST > FEST > PEST > PERT",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is FIST.",
+     "Halfway there, the ladder passes a word starting with F.",
+     "The middle word is FEST."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble OTOTAT into one word.",
+    "answer": "TATTOO",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with T.",
+     "It starts with T and ends with O.",
+     "The first three letters are TAT."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [I]  [S]  [E]  [U]  [L]  [C]  [D]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "19 everyday words, for example CLUE, DELI, DICE, DUEL, DUES, ICED, IDLE, ISLE, LICE, LIEU, LUCID, SIDE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 19 everyday words here. One starts with CL.",
+     "Try a word starting with LI, and one ending in ED.",
+     "Three to try: LIEU, SLICE, IDLE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Cara, Faye, Uma and Yara each have a different snack, color and drink. Snack: carrots, cookies, popcorn, pretzels; Color: gray, purple, red, yellow; Drink: cocoa, coffee, juice, tea. Use the clues to match everyone.\n1. Yara does not wear purple.\n2. The person who brought the cookies drinks tea.\n3. Yara does not drink coffee.\n4. Faye wears yellow.\n5. The person who brought the carrots wears red.\n6. The person who wears yellow drinks juice.\n7. Cara wears gray.\n8. The person who brought the pretzels does not wear purple.\n9. Cara brought the cookies.",
+    "answer": "Cara: cookies, gray, tea; Faye: pretzels, yellow, juice; Uma: popcorn, purple, coffee; Yara: carrots, red, cocoa",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Yara brought the carrots.",
+     "Two more: Cara drinks tea; Faye drinks juice."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 1, 5, 5 and 6 once each, with + - x and /, to make 36. Brackets are fine.",
+    "answer": "((1 + 5) x 5) + 6",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 1 and 5.",
+     "One answer: ((1 ? 5) ? 5) ? 6."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nHNK DRCHHQ YVTE AKJXUD V INTTO QUXXUK ACUT XCU YUQQ KJTSD.\nStarter letters: U = E, T = N.",
+    "answer": "Our school band writes a funny letter when the bell rings.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "N stands for U.",
+     "V stands for A, and X stands for T.",
+     "The first two words are OUR SCHOOL."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn TROLL into TROMP, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "TROLL > DROLL > DROOL > DROOP > TROOP > TROMP",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is DROLL.",
+     "Halfway there, the ladder passes a word starting with D.",
+     "The middle word is DROOP."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble GKIPANC into one word.",
+    "answer": "PACKING",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with P.",
+     "It starts with P and ends with G.",
+     "The first three letters are PAC."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [G]  [E]  [T]  [N]  [A]  [A]  [M]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "21 everyday words, for example AGENT, AMEN, ANTE, GAME, GATE, GENT, GNAT, MAGENTA, MAGNATE, MAGNET, MANAGE, MANE, MANGE, MATE, MEAN, MEANT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 21 everyday words here. One starts with AG.",
+     "Try a word starting with MA, and one ending in AM.",
+     "Three to try: MAGENTA, MANGE, ANTE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Faye, Hana, Ivy, Kai and Quinn each have a different snack, color and drink. Snack: apples, cheese, grapes, popcorn, pretzels; Color: gray, orange, pink, red, yellow; Drink: cocoa, juice, lemonade, milk, water. Use the clues to match everyone.\n1. Faye does not wear red.\n2. Faye did not bring the apples.\n3. Kai drinks milk.\n4. Ivy did not bring the apples.\n5. Faye does not wear gray.\n6. The person who wears red does not drink milk.\n7. Quinn does not wear gray.\n8. The person who wears gray does not drink milk.\n9. Quinn drinks juice.\n10. The person who brought the pretzels drinks lemonade.\n11. The person who wears yellow does not drink milk.\n12. The person who brought the popcorn does not wear gray.\n13. Quinn brought the grapes.\n14. Faye does not drink water.\n15. The person who brought the cheese wears orange.\n16. Faye did not bring the popcorn.\n17. The person who brought the cheese drinks water.",
+    "answer": "Faye: pretzels, yellow, lemonade; Hana: apples, gray, cocoa; Ivy: cheese, orange, water; Kai: popcorn, pink, milk; Quinn: grapes, red, juice",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 3 pins one pair down, so start there.",
+     "Hana brought the apples.",
+     "Two more: Faye drinks lemonade; Ivy drinks water."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [  ?] [  ?]\n  [  9] [ 13] [  ?]\n   [  4] [  ?] [  ?] [  7]\n    [  ?] [  1] [  ?] [  ?] [  ?]",
+    "answer": "50",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the bottom row, brick 1 from the left is 3.",
+     "Bottom row: 3, 1, 4, 4, 3."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-07",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nQMZ CZBWT NBJYBSP HQZYH YOT FBSE MPRTZ YOT ASEEQA YZTT.",
+    "answer": "Our brave captain sorts the mail under the willow tree.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "F stands for M.",
+     "Q stands for O, and M stands for U.",
+     "The first two words are OUR BRAVE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn ROGUE into SALVE, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "ROGUE > VOGUE > VAGUE > VALUE > VALVE > SALVE",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is VOGUE.",
+     "Halfway there, the ladder passes a word starting with V.",
+     "The middle word is VALUE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble AOLECKDD into one word.",
+    "answer": "DEADLOCK",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with D.",
+     "It starts with D and ends with K.",
+     "The first three letters are DEA."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [D]  [I]  [A]  [V]  [E]  [S]  [T]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "25 everyday words, for example ADVISE, AIDE, ASIDE, AVID, DATE, DIET, DIVE, DIVEST, EAST, EDIT, IDEA, SAID, SAVE, SEAT, SIDE, SITE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 25 everyday words here. One starts with AD.",
+     "Try a word starting with SA, and one ending in TA.",
+     "Three to try: TIDE, ASIDE, STAID."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ben, Faye, Jon, Kai and Rosa each have a different color, hobby and drink. Color: gray, green, orange, pink, purple; Hobby: baking, gardening, hiking, knitting, painting; Drink: cocoa, coffee, lemonade, milk, water. Use the clues to match everyone.\n1. Kai drinks milk.\n2. Jon drinks coffee.\n3. Kai does not wear pink.\n4. Ben wears gray.\n5. The person who wears green drinks cocoa.\n6. Jon does not enjoy gardening.\n7. The person who wears purple drinks water.\n8. The person who wears pink does not enjoy baking.\n9. Rosa does not drink water.\n10. The person who enjoys baking does not drink lemonade.\n11. The person who enjoys hiking drinks water.\n12. The person who enjoys painting drinks milk.",
+    "answer": "Ben: gray, gardening, lemonade; Faye: purple, hiking, water; Jon: pink, knitting, coffee; Kai: orange, painting, milk; Rosa: green, baking, cocoa",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Jon wears pink.",
+     "Two more: Ben drinks lemonade; Faye drinks water."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-08",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 5, 10, 12 and 13 once each, with + - x and /, to make 47. Brackets are fine.",
+    "answer": "((10 - 5) x 12) - 13",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "Only one arrangement works, so be precise.",
+     "One way starts by combining 10 and 5.",
+     "One answer: ((10 ? 5) ? 12) ? 13."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nR ESLUKS XSRO OSRGH R KDLE LDNSK RU UTS SGES DW UDVL.",
+    "answer": "A gentle bear reads a long novel at the edge of town.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "L stands for N.",
+     "U stands for T, and G stands for D.",
+     "The first two words are A GENTLE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SHOUT into WHITE, changing one letter at a time. Every step must be a real word. Par is 6 moves.",
+    "answer": "SHOUT > SHORT > SHORE > SHONE > SHINE > WHINE > WHITE",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SHORT.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is SHONE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble ANRADILC into one word.",
+    "answer": "CARDINAL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with C.",
+     "It starts with C and ends with L.",
+     "The first three letters are CAR."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [I]  [J]  [A]  [V]  [N]  [L]  [E]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "24 everyday words, for example ALIEN, ALIVE, ANVIL, EVIL, JAIL, JAVELIN, JIVE, LAIN, LANE, LEAN, LIEN, LINE, LIVE, LIVEN, NAIL, NAIVE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 24 everyday words here. One starts with AL.",
+     "Try a word starting with LI, and one ending in NE.",
+     "Three to try: VIAL, LIVEN, ALIVE."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Lena, Omar and Rosa each have a different drink and snack. Drink: cider, milk, tea; Snack: carrots, cookies, pretzels. Use the clues to match everyone.\n1. Lena did not bring the pretzels.\n2. Rosa did not bring the cookies.\n3. The person who drinks cider did not bring the cookies.\n4. The person who drinks tea did not bring the cookies.\n5. Lena drinks cider.",
+    "answer": "Lena: cider, carrots; Omar: milk, cookies; Rosa: tea, pretzels",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 5 pins one pair down, so start there.",
+     "Rosa drinks tea.",
+     "Two more: Lena brought the carrots; Omar brought the cookies."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "numbers",
+    "title": "Number sequence",
+    "prompt": "Each number follows one simple rule. What is the missing number? 21, 36, 51, 66, 81, ?",
+    "answer": "96",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "The rule: add the same amount each time.",
+     "The gaps between neighbors are 15, 15, 15, 15, ?.",
+     "The missing number is between 91 and 101."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nE TZGMB UEDMJIW YGHK E YEUUT JGMI OIYDMC JYI WIC OEWM.\nStarter letters: B = G, D = I, J = T, G = U.",
+    "answer": "A young painter hums a happy tune behind the red barn.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "W stands for R.",
+     "K stands for S, and U stands for P.",
+     "The first two words are A YOUNG."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn CARE into EARN, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "CARE > BARE > BARN > EARN",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is BARE.",
+     "Halfway there, the ladder passes a word starting with B.",
+     "The middle word is BARN."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble ESONR into one word.",
+    "answer": "SNORE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with S.",
+     "It starts with S and ends with E.",
+     "The first three letters are SNO."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [I]  [A]  [M]  [L]  [O]  [P]  [D]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "21 everyday words, for example AMID, DAMP, DIAL, DIPLOMA, IDOL, LAID, LAMP, LIMO",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 21 everyday words here. One starts with AM.",
+     "Try a word starting with MA, and one ending in OD.",
+     "Three to try: MAID, LOAD, AMID."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ana, Gus and Omar each have a different drink and snack. Drink: cocoa, coffee, water; Snack: apples, carrots, grapes. Use the clues to match everyone.\n1. Omar drinks coffee.\n2. Omar brought the grapes.\n3. The person who drinks water brought the carrots.\n4. Gus did not bring the carrots.",
+    "answer": "Ana: water, carrots; Gus: cocoa, apples; Omar: coffee, grapes",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Omar drinks coffee.",
+     "Two more: Ana brought the carrots; Gus brought the apples."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 3, 5, 9 and 9 once each, with + - x and /, to make 20. Brackets are fine.",
+    "answer": "((5 + 9) + 9) - 3",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 5 and 9.",
+     "One answer: ((5 ? 9) ? 9) ? 3."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nGP TQEETJ MQMEJW RQAJM EKJ FTC ZTFZO QV EKJ GQCCTJ FR DQVEJW.\nStarter letters: J = E, K = H, M = S, P = Y.",
+    "answer": "My little sister fixes the old clock in the middle of winter.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "O stands for K.",
+     "C stands for D, and T stands for L.",
+     "The first two words are MY LITTLE."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SIZE into CUTE, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "SIZE > SITE > CITE > CUTE",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SITE.",
+     "Halfway there, the ladder passes a word starting with C.",
+     "The middle word is CITE."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble IRVIEL into one word.",
+    "answer": "VIRILE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with V.",
+     "It starts with V and ends with E.",
+     "The first three letters are VIR."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [M]  [S]  [A]  [E]  [G]  [N]  [E]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "19 everyday words, for example AGES, AMEN, EASE, GAME, GAMES, GENE, MANE, MANGE, MEAN, MEANS, NAME, SAGE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 19 everyday words here. One starts with AG.",
+     "Try a word starting with ME, and one ending in AG.",
+     "Three to try: SAME, SANE, SANG."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Faye, Gus, Tess and Zed each have a different snack, pet and hobby. Snack: apples, cheese, cookies, pretzels; Pet: cat, hamster, lizard, rabbit; Hobby: baking, chess, hiking, painting. Use the clues to match everyone.\n1. Gus does not have the cat.\n2. The person who brought the apples does not have the hamster.\n3. The person who brought the apples enjoys painting.\n4. Faye brought the pretzels.\n5. The person who brought the cheese enjoys chess.\n6. The person who has the rabbit enjoys hiking.\n7. The person who has the hamster does not enjoy chess.\n8. The person who brought the apples does not have the lizard.\n9. Tess enjoys chess.\n10. Faye does not have the rabbit.",
+    "answer": "Faye: pretzels, hamster, baking; Gus: cookies, rabbit, hiking; Tess: cheese, lizard, chess; Zed: apples, cat, painting",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 3 pins one pair down, so start there.",
+     "Gus brought the cookies.",
+     "Two more: Faye enjoys baking; Tess enjoys chess."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 4 exactly once.\n. . . 2\n2 . 3 1\n3 . . .\n. . 4 .",
+    "answer": "4 3 1 2\n2 4 3 1\n3 1 2 4\n1 2 4 3",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 1 is 4.",
+     "Row 1: 4 3 1 2.",
+     "Rows 1 and 2: 4 3 1 2 / 2 4 3 1."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nH RHFIYMDFU SCYZ AFDZL H RHMN LBHMV ROYF ZOY TYKK MDFUL.\nStarter letters: S = P, M = R.",
+    "answer": "A wandering poet knits a warm scarf when the bell rings.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "T stands for B.",
+     "F stands for N, and L stands for S.",
+     "The first two words are A WANDERING."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-12",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn ROPE into LIFT, changing one letter at a time. Every step must be a real word. Par is 4 moves.",
+    "answer": "ROPE > RIPE > RIFE > LIFE > LIFT",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is RIPE.",
+     "Halfway there, the ladder passes a word starting with R.",
+     "The middle word is RIFE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble NMAIEC into one word.",
+    "answer": "ANEMIC (also accepted: CINEMA)",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with A.",
+     "It starts with A and ends with C.",
+     "The first three letters are ANE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [A]  [P]  [E]  [C]  [P]  [L]  [D]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "17 everyday words, for example APPLE, CAPE, CLAD, CLAP, DEAL, DECAL, LACE, LEAD, LEAP, PACE, PALE, PEAL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 17 everyday words here. One starts with AP.",
+     "Try a word starting with LE, and one ending in ED.",
+     "Three to try: PLED, CAPE, LEAP."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Cara, Rosa, Tess and Zed each have a different color, hobby and drink. Color: blue, green, orange, purple; Hobby: chess, cycling, hiking, knitting; Drink: cider, coffee, tea, water. Use the clues to match everyone.\n1. The person who wears orange drinks water.\n2. The person who enjoys cycling does not drink coffee.\n3. Rosa does not wear orange.\n4. The person who enjoys chess drinks tea.\n5. Cara drinks coffee.\n6. The person who wears orange does not enjoy hiking.\n7. The person who wears green enjoys cycling.\n8. The person who wears purple does not enjoy chess.\n9. Zed drinks tea.",
+    "answer": "Cara: purple, hiking, coffee; Rosa: green, cycling, cider; Tess: orange, knitting, water; Zed: blue, chess, tea",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Cara wears purple.",
+     "Two more: Rosa drinks cider; Tess drinks water."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "numbers",
+    "title": "Number sequence",
+    "prompt": "Each number follows one simple rule. What is the missing number? 15, 23, 32, 42, 53, ?",
+    "answer": "65",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "The rule: the step grows by the same amount each time.",
+     "The gaps between neighbors are 8, 9, 10, 11, ?.",
+     "The missing number is between 60 and 70."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-13",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nV ABYFTB QBVS NSVKM V FSBVMZSB RVG ZYNBS V MLTUBS RDDY.",
+    "answer": "A gentle bear draws a treasure map under a silver moon.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "D stands for O.",
+     "T stands for L, and S stands for R.",
+     "The first two words are A GENTLE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn FIFTY into WITCH, changing one letter at a time. Every step must be a real word. Par is 6 moves.",
+    "answer": "FIFTY > FIFTH > FILTH > FILCH > FINCH > WINCH > WITCH",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is FIFTH.",
+     "Halfway there, the ladder passes a word starting with F.",
+     "The middle word is FILCH."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble DORFENFE into one word.",
+    "answer": "OFFENDER",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with O.",
+     "It starts with O and ends with R.",
+     "The first three letters are OFF."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [I]  [A]  [R]  [D]  [G]  [C]  [N]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "25 everyday words, for example ACID, ACRID, ARID, CARD, CARING, CIGAR, DARING, DARN, DRAG, DRAIN, GAIN, GRAD, GRAIN, GRAND, GRID, GRIN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 25 everyday words here. One starts with AC.",
+     "Try a word starting with GR, and one ending in NG.",
+     "Three to try: RANCID, ACID, CARING."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Faye, Ivy, Omar, Pia and Tess each have a different snack, pet and hobby. Snack: apples, cheese, cookies, muffins, popcorn; Pet: cat, goldfish, hamster, lizard, rabbit; Hobby: baking, chess, cycling, hiking, knitting. Use the clues to match everyone.\n1. The person who brought the muffins enjoys chess.\n2. Tess did not bring the cookies.\n3. Pia does not enjoy baking.\n4. The person who brought the muffins has the cat.\n5. The person who brought the apples does not have the goldfish.\n6. The person who has the rabbit enjoys hiking.\n7. Tess did not bring the muffins.\n8. Faye has the goldfish.\n9. The person who brought the cookies has the hamster.\n10. Pia did not bring the muffins.\n11. The person who has the hamster does not enjoy knitting.\n12. The person who brought the popcorn enjoys hiking.\n13. Ivy enjoys knitting.",
+    "answer": "Faye: cheese, goldfish, baking; Ivy: apples, lizard, knitting; Omar: muffins, cat, chess; Pia: cookies, hamster, cycling; Tess: popcorn, rabbit, hiking",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Pia brought the cookies.",
+     "Two more: Faye enjoys baking; Ivy enjoys knitting."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-14",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "numbers",
+    "title": "Number sequence",
+    "prompt": "Each number follows one simple rule. What is the missing number? 4, 12, 8, 16, ?, 20",
+    "answer": "12",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "The rule: add one amount, then take away another, in turn.",
+     "The gaps between neighbors are 8, -4, 8, ?, ?.",
+     "The missing number is between 7 and 17."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nSKQ AUH UEDKSKACGQ OQQTQL GEYDG EY SKQ GKAZQL EY TQLPQVS GEUQYVQ.",
+    "answer": "The old lighthouse keeper sings in the shower in perfect silence.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "S stands for T.",
+     "T stands for P, and D stands for G.",
+     "The first two words are THE OLD."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn TRAIT into BRINK, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "TRAIT > TRACT > TRACK > TRICK > BRICK > BRINK",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is TRACT.",
+     "Halfway there, the ladder passes a word starting with T.",
+     "The middle word is TRICK."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble NAEREDGD into one word.",
+    "answer": "DERANGED (also accepted: GARDENED)",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with D.",
+     "It starts with D and ends with D.",
+     "The first three letters are DER."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [I]  [E]  [W]  [R]  [Y]  [L]  [D]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "20 everyday words, for example DELI, DIRE, DREW, IDLE, IDLY, LEWD, RELY, RIDE, RILE, WEIRD, WELD, WIDE, WIDELY, WIELD, WILD, WILY",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 20 everyday words here. One starts with DE.",
+     "Try a word starting with WE, and one ending in LD.",
+     "Three to try: IDLY, WELD, WIRY."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Dev, Faye, Jon, Kai and Nora each have a different pet, color and hobby. Pet: cat, dog, goldfish, lizard, turtle; Color: blue, gray, orange, pink, purple; Hobby: baking, chess, gardening, hiking, painting. Use the clues to match everyone.\n1. Jon does not wear orange.\n2. The person who has the lizard does not wear orange.\n3. Faye does not wear orange.\n4. The person who wears gray enjoys chess.\n5. The person who has the dog does not wear gray.\n6. Faye does not wear pink.\n7. Dev does not have the dog.\n8. The person who has the turtle does not enjoy gardening.\n9. The person who wears purple enjoys hiking.\n10. The person who has the cat enjoys painting.\n11. Jon does not enjoy gardening.\n12. The person who has the goldfish wears purple.\n13. Kai does not wear orange.\n14. Faye enjoys painting.\n15. Nora wears gray.",
+    "answer": "Dev: turtle, orange, baking; Faye: cat, blue, painting; Jon: goldfish, purple, hiking; Kai: dog, pink, gardening; Nora: lizard, gray, chess",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 4 pins one pair down, so start there.",
+     "Nora has the lizard.",
+     "Two more: Dev enjoys baking; Faye enjoys painting."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 5 exactly once.\n. 2 5 . .\n. . . 5 .\n4 . 2 . .\n2 . . 1 .\n. . 4 . .",
+    "answer": "1 2 5 4 3\n3 4 1 5 2\n4 1 2 3 5\n2 5 3 1 4\n5 3 4 2 1",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 1 is 1.",
+     "Row 1: 1 2 5 4 3.",
+     "Rows 1 and 2: 1 2 5 4 3 / 3 4 1 5 2."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nZL VGFFVR TGTFRP YBFRPT FOR IBPXRJ RDRPL THJJL ZKPJGJI.",
+    "answer": "My little sister waters the garden every sunny morning.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "R stands for E.",
+     "D stands for V, and J stands for N.",
+     "The first two words are MY LITTLE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SPLIT into STRIP, changing one letter at a time. Every step must be a real word. Par is 6 moves.",
+    "answer": "SPLIT > SPLAT > SPLAY > SPRAY > STRAY > STRAP > STRIP",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SPLAT.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is SPRAY."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble NRVUOER into one word.",
+    "answer": "OVERRUN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with O.",
+     "It starts with O and ends with N.",
+     "The first three letters are OVE."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [C]  [P]  [U]  [R]  [E]  [I]  [E]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "14 everyday words, for example CREEP, CREPE, CURE, EPIC, PEER, PIECE, PIER, PIERCE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 14 everyday words here. One starts with CR.",
+     "Try a word starting with PI, and one ending in PE.",
+     "Three to try: PIER, PRICE, PIECE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ben, Nora and Rosa each have a different hobby and drink. Hobby: baking, cycling, gardening; Drink: cider, cocoa, lemonade. Use the clues to match everyone.\n1. Nora enjoys baking.\n2. Ben drinks lemonade.\n3. The person who enjoys gardening drinks cider.",
+    "answer": "Ben: cycling, lemonade; Nora: baking, cocoa; Rosa: gardening, cider",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Nora enjoys baking.",
+     "Two more: Ben drinks lemonade; Rosa drinks cider."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "numbers",
+    "title": "Number sequence",
+    "prompt": "Each number follows one simple rule. What is the missing number? 40, 48, 56, 64, 72, ?",
+    "answer": "80",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "The rule: add the same amount each time.",
+     "The gaps between neighbors are 8, 8, 8, 8, ?.",
+     "The missing number is between 75 and 85."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nYAK DMBBI WBLXV AOSD T ATGGI YOVK.\nStarter letters: M = I, V = N, D = S, X = W.",
+    "answer": "The silly clown hums a happy tune.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "S stands for M.",
+     "O stands for U, and L stands for O.",
+     "The first two words are THE SILLY."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn TON into FIB, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "TON > TIN > FIN > FIB",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is TIN.",
+     "Halfway there, the ladder passes a word starting with F.",
+     "The middle word is FIN."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-17",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble KMEI into one word.",
+    "answer": "MIKE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with M.",
+     "It starts with M and ends with E.",
+     "The first three letters are MIK."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [F]  [I]  [D]  [R]  [L]  [T]  [E]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "37 everyday words, for example DEFT, DELI, DIET, DIRE, DIRT, DRIFT, EDIT, FELT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 37 everyday words here. One starts with DE.",
+     "Try a word starting with FR, and one ending in LE.",
+     "Three to try: FILTER, FRET, LIFE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Jon, Milo and Tess each have a different color and pet. Color: orange, pink, red; Pet: cat, parrot, rabbit. Use the clues to match everyone.\n1. Milo does not wear orange.\n2. Tess wears pink.\n3. Jon has the cat.\n4. Tess has the parrot.",
+    "answer": "Jon: orange, cat; Milo: red, rabbit; Tess: pink, parrot",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Tess wears pink.",
+     "Two more: Jon has the cat; Milo has the rabbit."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [  4] [  ?]\n  [  1] [  ?] [  3]",
+    "answer": "10",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the bottom row, brick 2 from the left is 3.",
+     "Bottom row: 1, 3, 3."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nNJ EOVFVK DVHPBSCK UOGDXW XYOHUW SVBHDR XBV KVR SGKD.\nStarter letters: P = G, B = H, U = P, X = T.",
+    "answer": "My clever neighbor plants tulips behind the red barn.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "E stands for C.",
+     "F stands for V, and J stands for Y.",
+     "The first two words are MY CLEVER."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-18",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn PAWN into BARF, changing one letter at a time. Every step must be a real word. Par is 4 moves.",
+    "answer": "PAWN > DAWN > DARN > BARN > BARF",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is DAWN.",
+     "Halfway there, the ladder passes a word starting with D.",
+     "The middle word is DARN."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble SYTRNE into one word.",
+    "answer": "SENTRY",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with S.",
+     "It starts with S and ends with Y.",
+     "The first three letters are SEN."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [D]  [A]  [S]  [E]  [R]  [M]  [T]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "41 everyday words, for example ARMED, ARMS, ARTS, DAME, DARE, DART, DARTS, DATE, DEAR, DREAM, DREAMT, EAST",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 41 everyday words here. One starts with AR.",
+     "Try a word starting with RE, and one ending in AD.",
+     "Three to try: MATE, SEAT, TRADE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Ivy, Pia, Sam and Vic each have a different snack, drink and color. Snack: apples, carrots, popcorn, pretzels; Drink: cider, cocoa, juice, milk; Color: gray, green, pink, red. Use the clues to match everyone.\n1. The person who brought the carrots wears red.\n2. The person who brought the carrots drinks cocoa.\n3. Vic did not bring the pretzels.\n4. The person who brought the popcorn does not drink milk.\n5. Pia does not drink juice.\n6. Ivy drinks cider.\n7. Sam did not bring the carrots.\n8. Sam does not wear gray.\n9. Ivy does not wear green.\n10. The person who brought the pretzels wears gray.\n11. The person who brought the popcorn does not drink juice.",
+    "answer": "Ivy: popcorn, cider, pink; Pia: pretzels, milk, gray; Sam: apples, juice, green; Vic: carrots, cocoa, red",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Sam brought the apples.",
+     "Two more: Ivy wears pink; Pia wears gray."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 3, 4, 9 and 11 once each, with + - x and /, to make 40. Brackets are fine.",
+    "answer": "(11 - 3) x (9 - 4)",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 11 and 3.",
+     "One answer: (11 ? 3) ? (9 ? 4)."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nY IXRMID FOYIM PRWZB Y FYJL BGYJC AMOWRT ZOM JMT AYJR.\nStarter letters: R = N, F = W.",
+    "answer": "A lonely whale knits a warm scarf behind the red barn.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "L stands for M.",
+     "B stands for S, and W stands for I.",
+     "The first two words are A LONELY."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn FURY into CALF, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "FURY > FURL > CURL > CULL > CALL > CALF",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is FURL.",
+     "Halfway there, the ladder passes a word starting with C.",
+     "The middle word is CULL."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble VLDRIE into one word.",
+    "answer": "DRIVEL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with D.",
+     "It starts with D and ends with L.",
+     "The first three letters are DRI."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [N]  [L]  [I]  [K]  [S]  [Y]  [E]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "16 everyday words, for example ISLE, KILN, LENS, LIEN, LIKE, LIKEN, LINE, LINES, LINK, SILK, SILKEN, SILKY",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 16 everyday words here. One starts with IS.",
+     "Try a word starting with LI, and one ending in NK.",
+     "Three to try: KILN, SKIN, SKYLINE."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Eli, Omar, Vic and Zed each have a different hobby, color and pet. Hobby: chess, cycling, knitting, painting; Color: gray, orange, red, yellow; Pet: cat, dog, hamster, rabbit. Use the clues to match everyone.\n1. The person who enjoys chess has the cat.\n2. Vic wears red.\n3. Eli wears yellow.\n4. The person who enjoys painting wears yellow.\n5. The person who enjoys painting does not have the dog.\n6. The person who wears gray does not have the dog.\n7. Omar enjoys cycling.\n8. The person who wears orange has the hamster.",
+    "answer": "Eli: painting, yellow, rabbit; Omar: cycling, orange, hamster; Vic: knitting, red, dog; Zed: chess, gray, cat",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Vic enjoys knitting.",
+     "Two more: Eli has the rabbit; Omar has the hamster."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-20",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 7, 8, 8 and 12 once each, with + - x and /, to make 40. Brackets are fine.",
+    "answer": "(12 x 8) - (7 x 8)",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "Only one arrangement works, so be precise.",
+     "One way starts by combining 12 and 8.",
+     "One answer: (12 ? 8) ? (7 ? 8)."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nUE RJYYRX PJPYXS PJZTP JZ YAX PAMVXS CLPY FXDMSX PLHHXS.",
+    "answer": "My little sister sings in the shower just before supper.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "E stands for Y.",
+     "P stands for S, and J stands for I.",
+     "The first two words are MY LITTLE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SHIRK into STAIN, changing one letter at a time. Every step must be a real word. Par is 6 moves.",
+    "answer": "SHIRK > SHARK > STARK > STANK > STAND > STAID > STAIN",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SHARK.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is STANK."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble NCGOSNI into one word.",
+    "answer": "CONSIGN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with C.",
+     "It starts with C and ends with N.",
+     "The first three letters are CON."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [S]  [T]  [A]  [N]  [H]  [E]  [M]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "35 everyday words, for example AMEN, ANTE, ANTHEM, ASHEN, EAST, HASTE, HASTEN, HEAT, MANE, MASH, MAST, MATE, MATH, MEAN, MEANS, MEANT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 35 everyday words here. One starts with AM.",
+     "Try a word starting with ME, and one ending in EN.",
+     "Three to try: EAST, MESH, MATH."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-21",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Faye, Jon, Nora, Rosa and Tess each have a different snack, hobby and pet. Snack: carrots, cheese, cookies, grapes, muffins; Hobby: cycling, fishing, hiking, knitting, painting; Pet: cat, hamster, parrot, rabbit, turtle. Use the clues to match everyone.\n1. Faye did not bring the cheese.\n2. The person who brought the muffins enjoys hiking.\n3. Nora does not enjoy cycling.\n4. The person who enjoys knitting has the turtle.\n5. Rosa has the rabbit.\n6. Jon does not have the hamster.\n7. Rosa brought the carrots.\n8. Jon enjoys painting.\n9. The person who brought the cookies has the parrot.\n10. Faye does not have the turtle.\n11. Rosa does not enjoy cycling.\n12. Nora has the cat.",
+    "answer": "Faye: grapes, cycling, hamster; Jon: cookies, painting, parrot; Nora: muffins, hiking, cat; Rosa: carrots, fishing, rabbit; Tess: cheese, knitting, turtle",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Jon brought the cookies.",
+     "Two more: Faye has the hamster; Nora has the cat."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [  ?] [  ?]\n  [ 29] [ 23] [  ?]\n   [  ?] [  ?] [  9] [ 18]\n    [  ?] [  ?] [  ?] [  ?] [ 11]",
+    "answer": "102",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the bottom row, brick 1 from the left is 3.",
+     "Bottom row: 3, 12, 2, 7, 11."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nGZN ZHWVMN LKGGNS LQBIT Q LFBDFB HDONS Q TFMYNS WKKD.",
+    "answer": "The humble potter packs a picnic under a silver moon.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "H stands for U.",
+     "L stands for P, and Y stands for V.",
+     "The first two words are THE HUMBLE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SLOSH into BLAND, changing one letter at a time. Every step must be a real word. Par is 6 moves.",
+    "answer": "SLOSH > SLASH > FLASH > FLASK > FLANK > BLANK > BLAND",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SLASH.",
+     "Halfway there, the ladder passes a word starting with F.",
+     "The middle word is FLASK."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble AEEROHDF into one word.",
+    "answer": "FOREHEAD",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with F.",
+     "It starts with F and ends with D.",
+     "The first three letters are FOR."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-22",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [W]  [L]  [E]  [O]  [T]  [D]  [N]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "26 everyday words, for example DENT, DOLE, DONE, DOTE, DOWN, DWELT, ENDOW, LEND, LENT, LETDOWN, LEWD, LONE, NEWT, NODE, NOTE, NOTED",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 26 everyday words here. One starts with DE.",
+     "Try a word starting with NO, and one ending in NT.",
+     "Three to try: WENT, TOWN, TONE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Dev, Eli, Jon, Lena and Pia each have a different pet, color and drink. Pet: goldfish, hamster, lizard, parrot, turtle; Color: blue, green, orange, pink, purple; Drink: cider, juice, milk, tea, water. Use the clues to match everyone.\n1. The person who wears purple does not drink tea.\n2. The person who wears pink drinks milk.\n3. The person who has the lizard does not wear green.\n4. Pia does not have the lizard.\n5. Pia drinks tea.\n6. The person who has the hamster wears orange.\n7. The person who has the parrot drinks cider.\n8. The person who wears green does not drink tea.\n9. The person who has the parrot does not wear green.\n10. The person who wears orange drinks water.\n11. Jon wears orange.\n12. Dev does not have the parrot.\n13. Eli has the goldfish.",
+    "answer": "Dev: lizard, pink, milk; Eli: goldfish, green, juice; Jon: hamster, orange, water; Lena: parrot, purple, cider; Pia: turtle, blue, tea",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Eli has the goldfish.",
+     "Two more: Dev drinks milk; Jon drinks water."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 5 exactly once.\n2 4 3 . .\n. 1 . . 3\n. 3 . . .\n5 . . . .\n. . . 1 .",
+    "answer": "2 4 3 5 1\n4 1 5 2 3\n1 3 2 4 5\n5 2 1 3 4\n3 5 4 1 2",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 4 is 5.",
+     "Row 1: 2 4 3 5 1.",
+     "Rows 1 and 2: 2 4 3 5 1 / 4 1 5 2 3."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nZ LQOID KZGIABU VUZJM Z AUBZMOUB HZK OIVBU ARB JGWWQJ AUBB.",
+    "answer": "A young painter draws a treasure map under the willow tree.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "V stands for D.",
+     "G stands for I, and U stands for R.",
+     "The first two words are A YOUNG."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SWEAT into CHEEK, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "SWEAT > SWEAR > SHEAR > SHEER > CHEER > CHEEK",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SWEAR.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is SHEER."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-23",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble LHLA into one word.",
+    "answer": "HALL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with H.",
+     "It starts with H and ends with L.",
+     "The first three letters are HAL."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [L]  [Y]  [E]  [S]  [M]  [I]  [S]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "12 everyday words, for example ISLE, LESS, LIME, MESS, MESSY, MILE, MILES, MISS",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 12 everyday words here. One starts with IS.",
+     "Try a word starting with MI, and one ending in LE.",
+     "Three to try: LIME, MISS, MILES."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Nora, Quinn and Zed each have a different hobby and pet. Hobby: chess, cycling, fishing; Pet: dog, parrot, turtle. Use the clues to match everyone.\n1. The person who enjoys fishing does not have the parrot.\n2. Nora has the dog.\n3. Nora enjoys cycling.\n4. Quinn does not have the parrot.",
+    "answer": "Nora: cycling, dog; Quinn: fishing, turtle; Zed: chess, parrot",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Nora enjoys cycling.",
+     "Two more: Quinn has the turtle; Zed has the parrot."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 4 exactly once.\n4 1 . .\n. 3 . 4\n1 . 3 2\n. 2 . .",
+    "answer": "4 1 2 3\n2 3 1 4\n1 4 3 2\n3 2 4 1",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 3 is 2.",
+     "Row 1: 4 1 2 3.",
+     "Rows 1 and 2: 4 1 2 3 / 2 3 1 4."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nC RSBH BOSYEEVJ BYPQB YP MUV BUFLVE.\nStarter letters: C = A, R = B, P = N, O = Q.",
+    "answer": "A busy squirrel sings in the shower.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "E stands for R.",
+     "H stands for Y, and L stands for W.",
+     "The first two words are A BUSY."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn FAT into NIP, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "FAT > FIT > NIT > NIP",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is FIT.",
+     "Halfway there, the ladder passes a word starting with N.",
+     "The middle word is NIT."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble TEQUS into one word.",
+    "answer": "QUEST",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with Q.",
+     "It starts with Q and ends with T.",
+     "The first three letters are QUE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [L]  [O]  [R]  [P]  [A]  [G]  [E]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "36 everyday words, for example GALE, GALORE, GAPE, GEAR, GLARE, GOAL, GORE, GRAPE",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 36 everyday words here. One starts with GA.",
+     "Try a word starting with PA, and one ending in PE.",
+     "Three to try: LORE, GEAR, PAROLE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Faye, Quinn and Vic each have a different hobby and snack. Hobby: baking, fishing, hiking; Snack: grapes, muffins, pretzels. Use the clues to match everyone.\n1. Quinn brought the muffins.\n2. The person who enjoys hiking did not bring the muffins.\n3. The person who enjoys fishing brought the pretzels.\n4. Faye did not bring the pretzels.",
+    "answer": "Faye: hiking, grapes; Quinn: baking, muffins; Vic: fishing, pretzels",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Quinn enjoys baking.",
+     "Two more: Faye brought the grapes; Vic brought the pretzels."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 4, 6, 7 and 8 once each, with + - x and /, to make 10. Brackets are fine.",
+    "answer": "((4 x 6) / 8) + 7",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 4 and 6.",
+     "One answer: ((4 ? 6) ? 8) ? 7."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-25",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nU QCYEICR KCKKB MCZR U MUKKB GCLX IL U DELAB UHGXYLIIL.\nStarter letters: Y = R, R = S.",
+    "answer": "A curious puppy hums a happy tune on a windy afternoon.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "C stands for U.",
+     "G stands for T, and B stands for Y.",
+     "The first two words are A CURIOUS."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn PITY into BYTE, changing one letter at a time. Every step must be a real word. Par is 4 moves.",
+    "answer": "PITY > CITY > CITE > BITE > BYTE",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is CITY.",
+     "Halfway there, the ladder passes a word starting with C.",
+     "The middle word is CITE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble ONIBGL into one word.",
+    "answer": "GOBLIN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with G.",
+     "It starts with G and ends with N.",
+     "The first three letters are GOB."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [S]  [E]  [O]  [O]  [H]  [P]  [C]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "20 everyday words, for example CHOOSE, CHOP, CHOSE, COOP, COPE, ECHO, EPOCH, HOOP, HOOPS, HOPE, HOSE, OOPS",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 20 everyday words here. One starts with CH.",
+     "Try a word starting with HO, and one ending in OP.",
+     "Three to try: HOOPS, EPOCH, POOCH."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Eli, Jon, Rosa and Zed each have a different hobby, pet and snack. Hobby: cycling, fishing, gardening, knitting; Pet: goldfish, hamster, lizard, parrot; Snack: cheese, cookies, popcorn, pretzels. Use the clues to match everyone.\n1. The person who has the goldfish brought the cookies.\n2. Rosa does not have the hamster.\n3. Eli did not bring the cheese.\n4. Zed has the parrot.\n5. Eli does not have the lizard.\n6. Rosa does not enjoy gardening.\n7. The person who enjoys knitting does not have the goldfish.\n8. The person who enjoys gardening has the lizard.\n9. The person who enjoys cycling brought the pretzels.\n10. The person who enjoys cycling does not have the hamster.",
+    "answer": "Eli: knitting, hamster, popcorn; Jon: gardening, lizard, cheese; Rosa: fishing, goldfish, cookies; Zed: cycling, parrot, pretzels",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Jon enjoys gardening.",
+     "Two more: Eli brought the popcorn; Rosa brought the cookies."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-26",
+  "difficulty": "medium",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "numbers",
+    "title": "Number grid",
+    "prompt": "Fill the grid so every row and every column has each number from 1 to 4 exactly once.\n. . . .\n. . . 2\n2 . 3 .\n4 3 . 1",
+    "answer": "1 2 4 3\n3 4 1 2\n2 1 3 4\n4 3 2 1",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Row 1, column 1 is 1.",
+     "Row 1: 1 2 4 3.",
+     "Rows 1 and 2: 1 2 4 3 / 3 4 1 2."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nN FQMXZQ VQNA ONRMXI XKQ UQMTQ JKRZQ XKQ HQXXZQ VBRZI.\nStarter letters: R = I, H = K.",
+    "answer": "A gentle bear paints the fence while the kettle boils.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "N stands for A.",
+     "O stands for P, and J stands for W.",
+     "The first two words are A GENTLE."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn WORK into REEK, changing one letter at a time. Every step must be a real word. Par is 4 moves.",
+    "answer": "WORK > PORK > PERK > PEEK > REEK",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is PORK.",
+     "Halfway there, the ladder passes a word starting with P.",
+     "The middle word is PERK."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble EDMDOO into one word.",
+    "answer": "DOOMED",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with D.",
+     "It starts with D and ends with D.",
+     "The first three letters are DOO."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [S]  [L]  [N]  [I]  [G]  [P]  [U]\nMake 12 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "17 everyday words, for example GULP, LISP, LUNG, PING, PLUG, PLUS, SIGN, SING, SLING, SLIP, SLUG, SLUNG",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 17 everyday words here. One starts with GU.",
+     "Try a word starting with SL, and one ending in NG.",
+     "Three to try: GULP, SLIP, SIGN."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-27",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Gus, Quinn, Uma, Vic and Yara each have a different color, hobby and pet. Color: blue, gray, green, red, yellow; Hobby: baking, cycling, fishing, hiking, painting; Pet: cat, dog, parrot, rabbit, turtle. Use the clues to match everyone.\n1. The person who wears green does not have the cat.\n2. The person who wears gray does not have the parrot.\n3. The person who enjoys hiking does not have the rabbit.\n4. Quinn has the dog.\n5. Uma does not wear red.\n6. The person who enjoys fishing does not have the rabbit.\n7. The person who wears gray does not enjoy hiking.\n8. Uma does not have the rabbit.\n9. The person who wears green does not have the parrot.\n10. The person who enjoys baking has the dog.\n11. Vic enjoys painting.\n12. The person who wears yellow enjoys fishing.\n13. The person who enjoys painting does not have the rabbit.\n14. Gus wears yellow.\n15. The person who wears red does not enjoy painting.\n16. The person who wears blue enjoys baking.",
+    "answer": "Gus: yellow, fishing, parrot; Quinn: blue, baking, dog; Uma: green, hiking, turtle; Vic: gray, painting, cat; Yara: red, cycling, rabbit",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 4 pins one pair down, so start there.",
+     "Yara wears red.",
+     "Two more: Gus has the parrot; Quinn has the dog."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [ 33] [  ?]\n  [  ?] [ 19] [ 16]\n   [  ?] [  ?] [ 10] [  ?]\n    [  ?] [  ?] [  ?] [  5] [  ?]",
+    "answer": "68",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the bottom row, brick 1 from the left is 1.",
+     "Bottom row: 1, 4, 5, 5, 1."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nQKD KNFUBD VLQQDM VZWSQX QKD GDSPD UDXWTD QKD LBT FWBB.",
+    "answer": "The humble potter paints the fence beside the old mill.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "P stands for C.",
+     "N stands for U, and Z stands for A.",
+     "The first two words are THE HUMBLE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn JELLY into FERRY, changing one letter at a time. Every step must be a real word. Par is 7 moves.",
+    "answer": "JELLY > BELLY > BULLY > BURLY > CURLY > CURRY > FURRY > FERRY",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is BELLY.",
+     "Halfway there, the ladder passes a word starting with C.",
+     "The middle word is CURLY."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble EPCIRDTE into one word.",
+    "answer": "DECREPIT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with D.",
+     "It starts with D and ends with T.",
+     "The first three letters are DEC."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-28",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [A]  [E]  [W]  [T]  [E]  [S]  [K]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "24 everyday words, for example ASKEW, EASE, EAST, SAKE, SEAT, SEEK, SKATE, SKEW, STAKE, STEAK, STEW, SWAT, SWEAT, SWEET, TAKE, TASK",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 24 everyday words here. One starts with AS.",
+     "Try a word starting with SW, and one ending in ST.",
+     "Three to try: WAKE, SEAT, STAKE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Dev, Faye, Ivy, Lena and Zed each have a different pet, color and snack. Pet: dog, lizard, parrot, rabbit, turtle; Color: blue, gray, orange, pink, red; Snack: apples, carrots, cheese, grapes, muffins. Use the clues to match everyone.\n1. Dev brought the grapes.\n2. Faye does not wear orange.\n3. Lena does not have the dog.\n4. The person who has the rabbit does not wear orange.\n5. Ivy has the rabbit.\n6. The person who wears red did not bring the carrots.\n7. The person who wears orange brought the cheese.\n8. Zed does not wear red.\n9. Ivy did not bring the carrots.\n10. The person who has the parrot does not wear orange.\n11. Faye does not wear blue.\n12. The person who has the dog brought the muffins.\n13. The person who wears gray brought the apples.\n14. Faye has the turtle.",
+    "answer": "Dev: parrot, red, grapes; Faye: turtle, pink, carrots; Ivy: rabbit, gray, apples; Lena: lizard, orange, cheese; Zed: dog, blue, muffins",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Ivy has the rabbit.",
+     "Two more: Dev brought the grapes; Faye brought the carrots."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "numbers",
+    "title": "Number sequence",
+    "prompt": "Each number follows one simple rule. What is the missing number? 17, 21, 27, 35, 45, ?",
+    "answer": "57",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "The rule: the step grows by the same amount each time.",
+     "The gaps between neighbors are 4, 6, 8, 10, ?.",
+     "The missing number is between 52 and 62."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nLJQ RXV FLGFC ZGFWO G ZAFRAF JRSXQ G OABNXQ TLLR.",
+    "answer": "Our new coach packs a picnic under a silver moon.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "F stands for C.",
+     "X stands for E, and W stands for K.",
+     "The first two words are OUR NEW."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn STRUM into SPURT, changing one letter at a time. Every step must be a real word. Par is 5 moves.",
+    "answer": "STRUM > STRUT > STOUT > SPOUT > SPORT > SPURT",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is STRUT.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is SPOUT."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-29",
+  "difficulty": "tricky",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble GOZYLOO into one word.",
+    "answer": "ZOOLOGY",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with Z.",
+     "It starts with Z and ends with Y.",
+     "The first three letters are ZOO."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [A]  [L]  [T]  [M]  [S]  [E]  [L]\nMake 16 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "38 everyday words, for example ALMS, EAST, LAME, LAST, LATE, LEAST, MALE, MALL, MALLET, MALT, MAST, MATE, MEAL, MEAT, MELT, METAL",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 38 everyday words here. One starts with AL.",
+     "Try a word starting with SE, and one ending in LL.",
+     "Three to try: LAST, MALLET, SLAT."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Eli, Faye, Gus, Rosa and Sam each have a different pet, color and drink. Pet: cat, lizard, parrot, rabbit, turtle; Color: blue, green, orange, pink, yellow; Drink: cider, cocoa, juice, milk, water. Use the clues to match everyone.\n1. Faye wears blue.\n2. Rosa does not wear orange.\n3. The person who wears yellow drinks water.\n4. Gus does not have the parrot.\n5. Sam has the lizard.\n6. The person who has the parrot does not wear pink.\n7. Eli does not have the parrot.\n8. The person who has the turtle does not wear orange.\n9. Eli drinks juice.\n10. Rosa does not drink milk.\n11. The person who has the rabbit wears blue.\n12. Faye does not drink milk.\n13. The person who has the cat wears yellow.\n14. The person who wears green does not drink cider.",
+    "answer": "Eli: turtle, pink, juice; Faye: rabbit, blue, cider; Gus: cat, yellow, water; Rosa: parrot, green, cocoa; Sam: lizard, orange, milk",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Faye has the rabbit.",
+     "Two more: Eli drinks juice; Gus drinks water."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "numbers",
+    "title": "Number pyramid",
+    "prompt": "Each brick is the sum of the two bricks under it. What number goes in the top brick?\n[  ?]\n [ 56] [  ?]\n  [  ?] [  ?] [  ?]\n   [ 14] [ 15] [  ?] [  3]\n    [ 10] [  ?] [  ?] [  ?] [  ?]",
+    "answer": "98",
+    "accepts": "Only the one answer (checked to be unique).",
+    "hints": [
+     "Start where a brick and one neighbor are known: the brick between them is easy.",
+     "In the bottom row, brick 2 from the left is 4.",
+     "Bottom row: 10, 4, 11, 1, 2."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nKYO IJFWP TRAIGQ WMAKT R HRQU TFRQV MOZK KG KYO NRWOQP.",
+    "answer": "The lucky sailor knits a warm scarf next to the bakery.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "M stands for N.",
+     "A stands for I, and U stands for M.",
+     "The first two words are THE LUCKY."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-11-30",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn SIT into RAY, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "SIT > SAT > RAT > RAY",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is SAT.",
+     "Halfway there, the ladder passes a word starting with R.",
+     "The middle word is RAT."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble NBIAS into one word.",
+    "answer": "BASIN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with B.",
+     "It starts with B and ends with N.",
+     "The first three letters are BAS."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [C]  [C]  [R]  [S]  [N]  [A]  [E]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "18 everyday words, for example ACNE, ACRE, CANCER, CANE, CARE, CASE, CRANE, EARN",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 18 everyday words here. One starts with AC.",
+     "Try a word starting with NE, and one ending in RE.",
+     "Three to try: NARC, SNARE, SCARE."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Dev, Kai and Tess each have a different color and hobby. Color: blue, gray, green; Hobby: baking, fishing, hiking. Use the clues to match everyone.\n1. The person who wears gray enjoys hiking.\n2. Kai enjoys baking.\n3. Tess wears blue.",
+    "answer": "Dev: gray, hiking; Kai: green, baking; Tess: blue, fishing",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 1 pins one pair down, so start there.",
+     "Kai wears green.",
+     "Two more: Dev enjoys hiking; Tess enjoys fishing."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "numbers",
+    "title": "Reach the target",
+    "prompt": "Use 3, 5, 5 and 9 once each, with + - x and /, to make 12. Brackets are fine.",
+    "answer": "((3 x 5) / 5) + 9",
+    "accepts": "Any expression using each number once that equals the target.",
+    "hints": [
+     "There is more than one way to do it.",
+     "One way starts by combining 3 and 5.",
+     "One answer: ((3 ? 5) ? 5) ? 9."
+    ]
+   }
+  ]
+ },
+ {
+  "date": "2026-12-01",
+  "difficulty": "gentle",
+  "verified": true,
+  "puzzles": [
+   {
+    "n": 1,
+    "type": "cipher",
+    "title": "Code cracker",
+    "prompt": "Each letter stands for a different letter, the same swap all the way through. Crack the sentence:\nV IOKFQO UOVC HVPRM V HTPKTP.\nStarter letters: V = A, O = E, H = P, C = R.",
+    "answer": "A gentle bear packs a picnic.",
+    "accepts": "The sentence, or any decoding that keeps the same letter swaps and uses only real words.",
+    "hints": [
+     "R stands for K.",
+     "M stands for S, and F stands for T.",
+     "The first two words are A GENTLE."
+    ]
+   },
+   {
+    "n": 2,
+    "type": "ladder",
+    "title": "Word ladder",
+    "prompt": "Turn PLOY into SLIT, changing one letter at a time. Every step must be a real word. Par is 3 moves.",
+    "answer": "PLOY > PLOT > SLOT > SLIT",
+    "accepts": "Any ladder from start to end where each step is a real word one letter away.",
+    "hints": [
+     "A good first step is PLOT.",
+     "Halfway there, the ladder passes a word starting with S.",
+     "The middle word is SLOT."
+    ]
+   },
+   {
+    "n": 3,
+    "type": "anagram",
+    "title": "Anagram",
+    "prompt": "Unscramble ITWA into one word.",
+    "answer": "WAIT",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "It starts with W.",
+     "It starts with W and ends with T.",
+     "The first three letters are WAI."
+    ]
+   },
+   {
+    "n": 4,
+    "type": "pool",
+    "title": "Letter Pool",
+    "prompt": "Your letter tiles: [N]  [A]  [E]  [I]  [S]  [M]  [E]\nMake 8 words of 4 or more letters from these tiles. Each tile can be used once per word.",
+    "answer": "13 everyday words, for example AMEN, EASE, MAIN, MANE, MEAN, MEANS, MINE, NAME",
+    "accepts": "Any word in the accepted list.",
+    "hints": [
+     "There are 13 everyday words here. One starts with AM.",
+     "Try a word starting with MI, and one ending in EN.",
+     "Three to try: MEAN, EASE, MEANS."
+    ]
+   },
+   {
+    "n": 5,
+    "type": "logic",
+    "title": "Logic grid",
+    "prompt": "Hana, Uma and Vic each have a different hobby and pet. Hobby: chess, hiking, knitting; Pet: hamster, lizard, parrot. Use the clues to match everyone.\n1. Uma does not enjoy hiking.\n2. The person who enjoys knitting has the parrot.\n3. Vic has the lizard.\n4. The person who enjoys chess does not have the hamster.",
+    "answer": "Hana: hiking, hamster; Uma: knitting, parrot; Vic: chess, lizard",
+    "accepts": "Only the one solution (the clues allow exactly one).",
+    "hints": [
+     "Clue 2 pins one pair down, so start there.",
+     "Uma enjoys knitting.",
+     "Two more: Hana has the hamster; Vic has the lizard."
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,23 @@
+{
+  "note": "Omega Games' own phrase parts. A sentence is one subject, one action and one ending.",
+  "subjects": ["The patient otter", "A sleepy baker", "Our brave captain", "The tiny robot", "A cheerful farmer",
+    "The quiet librarian", "A curious puppy", "The old lighthouse keeper", "My clever neighbor", "A busy squirrel",
+    "The jolly gardener", "A young painter", "The friendly giant", "A careful pilot", "The happy penguin",
+    "Our school band", "A wandering poet", "The proud rooster", "A gentle bear", "The lucky sailor",
+    "My little sister", "A wise owl", "The humble potter", "A nervous kitten", "The grumpy goat",
+    "Our new coach", "A tired mail carrier", "The silly clown", "A lonely whale", "The eager student"],
+  "actions": ["packs a picnic", "paints the fence", "bakes a lemon pie", "hums a happy tune", "plants tulips",
+    "builds a sandcastle", "fixes the old clock", "flies a red kite", "reads a long novel", "knits a warm scarf",
+    "counts the stars", "sweeps the porch", "climbs the tall hill", "feeds the ducks", "writes a funny letter",
+    "washes the windows", "rides a blue bicycle", "carves a wooden spoon", "sings in the shower", "chases the wind",
+    "folds paper boats", "polishes the brass bell", "draws a treasure map", "waters the garden", "rows across the lake",
+    "juggles three oranges", "collects shiny pebbles", "lights the lantern", "tunes the piano", "sorts the mail"],
+  "endings": ["before the rain arrives", "every sunny morning", "after a long nap", "while the kettle boils",
+    "under the willow tree", "at the edge of town", "on a windy afternoon", "just before supper",
+    "beside the old mill", "when the bell rings", "near the busy harbor", "in the middle of winter",
+    "with a big smile", "for the whole village", "under a silver moon", "on the first day of spring",
+    "behind the red barn", "as the sun goes down", "across the quiet valley", "at the summer fair",
+    "with great care", "in the cozy kitchen", "along the river path", "after the parade",
+    "on top of the hill", "during the snowstorm", "next to the bakery", "for no reason at all",
+    "at the crack of dawn", "in perfect silence"]
+}

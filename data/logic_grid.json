@@ -1,0 +1,15 @@
+{
+  "names": ["Ana", "Ben", "Cara", "Dev", "Eli", "Faye", "Gus", "Hana", "Ivy", "Jon", "Kai", "Lena", "Milo", "Nora", "Omar", "Pia", "Quinn", "Rosa", "Sam", "Tess", "Uma", "Vic", "Wren", "Yara", "Zed"],
+  "attributes": {
+    "pet": {"label": "Pet", "pos": "has the {v}", "neg": "does not have the {v}", "rel": "who has the {v}",
+             "values": ["cat", "dog", "parrot", "rabbit", "goldfish", "turtle", "hamster", "lizard"]},
+    "color": {"label": "Color", "pos": "wears {v}", "neg": "does not wear {v}", "rel": "who wears {v}",
+              "values": ["red", "blue", "green", "yellow", "purple", "orange", "pink", "gray"]},
+    "snack": {"label": "Snack", "pos": "brought the {v}", "neg": "did not bring the {v}", "rel": "who brought the {v}",
+              "values": ["apples", "pretzels", "popcorn", "muffins", "grapes", "cheese", "cookies", "carrots"]},
+    "drink": {"label": "Drink", "pos": "drinks {v}", "neg": "does not drink {v}", "rel": "who drinks {v}",
+              "values": ["tea", "coffee", "cocoa", "lemonade", "juice", "milk", "water", "cider"]},
+    "hobby": {"label": "Hobby", "pos": "enjoys {v}", "neg": "does not enjoy {v}", "rel": "who enjoys {v}",
+              "values": ["hiking", "painting", "chess", "baking", "gardening", "cycling", "knitting", "fishing"]}
+  }
+}
