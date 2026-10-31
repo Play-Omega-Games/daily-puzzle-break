@@ -12,7 +12,7 @@ def score(record):
     return max(0, record['base'] - HINT_COST * record.get('hints', 0)) + (BONUS if record.get('bonus') else 0)
 
 
-def streaks(history, today, paused_days=(), delivery_days=None):
+def streaks(history, today, paused_days=(), delivery_days=None, carry=None):
     """A delivery day counts when at least one of its puzzles was solved (bonus puzzles excluded).
     Paused days and non-delivery days are skipped without breaking the streak.
     Today, if not yet solved, does not break it either."""
@@ -24,13 +24,18 @@ def streaks(history, today, paused_days=(), delivery_days=None):
         if h.get('bonus_puzzle'):
             continue
         d = dt.date.fromisoformat(h['date'])
+        if h.get('status') == 'restored':
+            paused.add(d)  # rebuilt on a fresh computer: play unknown, never breaks the streak
+            continue
         by_day.setdefault(d, False)
         if h.get('status') == 'solved':
             by_day[d] = True
+    carry = carry or {}
     if not by_day:
-        return {'current': 0, 'best': 0}
+        return {'current': carry.get('streak', 0), 'best': carry.get('best_streak', 0)}
     first = min(by_day)
-    best = run = 0
+    run = carry.get('streak', 0)  # streak saved in memory before a fresh-computer restore
+    best = max(run, carry.get('best_streak', 0))
     current = 0
     d = first
     while d <= today:
@@ -49,9 +54,9 @@ def streaks(history, today, paused_days=(), delivery_days=None):
     return {'current': current, 'best': best}
 
 
-def summary(history, today, paused_days=(), delivery_days=None):
-    s = streaks(history, today, paused_days, delivery_days)
-    total = sum(h.get('points', 0) for h in history)
+def summary(history, today, paused_days=(), delivery_days=None, carry=None):
+    s = streaks(history, today, paused_days, delivery_days, carry)
+    total = sum(h.get('points', 0) for h in history) + (carry or {}).get('score', 0)
     by_type = {}
     for h in history:
         t = by_type.setdefault(h['type'], {'played': 0, 'solved': 0, 'hints': 0})

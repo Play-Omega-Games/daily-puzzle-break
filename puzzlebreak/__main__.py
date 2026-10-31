@@ -110,7 +110,7 @@ def main(argv=None):
         print(json.dumps({'ok': True, 'n': p['n'], 'title': p['title'], 'difficulty': diff, 'prompt': p['prompt']}))
     elif a.cmd == 'stats':
         days = {'weekdays': {0, 1, 2, 3, 4}, 'weekends': {5, 6}}.get(profile.get('days'))
-        print(json.dumps(stats.summary(history, a.date, profile.get('paused_days', []), days)))
+        print(json.dumps(stats.summary(history, a.date, profile.get('paused_days', []), days, profile.get('carry'))))
     return 0
 
 
