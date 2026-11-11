@@ -4,7 +4,7 @@
   python3 -m puzzlebreak verify --state DIR                      re-verify today's set
   python3 -m puzzlebreak record --state DIR --date D --n 1 --status solved --hints 1 --tries 2 [--bonus]
                                                                  save a result and its points to history
-  python3 -m puzzlebreak stats --state DIR --date 2026-11-02     streak and score summary
+  python3 -m puzzlebreak stats --state DIR [--date 2026-11-02]   streak and score summary (--date defaults to today)
   python3 -m puzzlebreak rebuild --state DIR --start 2026-11-02 --date 2026-12-01
                                                                  fresh computer: rebuild history fingerprints
                                                                  for past delivery days so nothing repeats
@@ -12,6 +12,7 @@
                                                                  one extra verified puzzle (n 101, 102, ...)
 DIR holds profile.json (salt, types, difficulty, count, days) and history.json."""
 import argparse
+import datetime as dt
 import json
 import sys
 from pathlib import Path
@@ -40,6 +41,8 @@ def main(argv=None):
     ap.add_argument('--tries', type=int, default=0)
     ap.add_argument('--bonus', action='store_true', help='ladder solved at par')
     a = ap.parse_args(argv)
+    if not a.date:
+        a.date = dt.date.today().isoformat()
     state = Path(a.state)
     profile = load(state / 'profile.json', None)
     history = load(state / 'history.json', [])
@@ -75,7 +78,6 @@ def main(argv=None):
         (state / 'history.json').write_text(json.dumps(history, indent=1))
         print(json.dumps(rec))
     elif a.cmd == 'rebuild':
-        import datetime as dt
         days = {'weekdays': {0, 1, 2, 3, 4}, 'weekends': {5, 6}}.get(profile.get('days'), set(range(7)))
         d, end, rebuilt = dt.date.fromisoformat(a.start), dt.date.fromisoformat(a.date), []
         known = {h['date'] for h in history}
@@ -91,7 +93,6 @@ def main(argv=None):
         print(json.dumps({'ok': True, 'restored_days': len({r['date'] for r in rebuilt})}))
     elif a.cmd == 'bonus':
         from .common import rng_for
-        import datetime as dt
         bonus = [b for b in load(state / 'bonus.json', []) if b['date'] == a.date]
         avoid = daymod.recent_fingerprints(history, dt.date.fromisoformat(a.date) + dt.timedelta(days=1))
         diff = a.difficulty or daymod.difficulty_for(profile, dt.date.fromisoformat(a.date))

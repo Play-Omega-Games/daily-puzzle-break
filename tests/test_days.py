@@ -81,5 +81,41 @@ class Stats(unittest.TestCase):
         self.assertEqual(stats.streaks(h, '2026-11-09', delivery_days={0, 1, 2, 3, 4})['current'], 2)
 
 
+class StatsCli(unittest.TestCase):
+    def test_stats_defaults_date_to_today(self):
+        import io
+        import json
+        import tempfile
+        from contextlib import redirect_stdout
+        from pathlib import Path
+
+        from puzzlebreak.__main__ import main
+
+        today = dt.date.today().isoformat()
+        yesterday = (dt.date.today() - dt.timedelta(days=1)).isoformat()
+        history = [
+            {'date': yesterday, 'type': 'anagram', 'status': 'solved', 'points': 20, 'hints': 0, 'n': 1},
+        ]
+        with tempfile.TemporaryDirectory() as td:
+            state = Path(td)
+            (state / 'profile.json').write_text(json.dumps({
+                'salt': 't', 'types': ['anagram'], 'difficulty': 'medium', 'count': 1, 'days': 'every',
+            }))
+            (state / 'history.json').write_text(json.dumps(history))
+
+            def run(args):
+                buf = io.StringIO()
+                with redirect_stdout(buf):
+                    rc = main(args)
+                self.assertEqual(rc, 0)
+                return json.loads(buf.getvalue())
+
+            without = run(['stats', '--state', str(state)])
+            with_date = run(['stats', '--state', str(state), '--date', today])
+            self.assertEqual(without, with_date)
+            self.assertEqual(without['streak'], 1)
+            self.assertEqual(without['score'], 20)
+
+
 if __name__ == '__main__':
     unittest.main()
